@@ -1,0 +1,36 @@
+.task{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* position: relative; */
+    background: white;
+    width: 250px;
+    border-radius: 5px;
+    float: left;
+    box-shadow: 5px 5px 5px 5px #999090;
+    padding: 8px;
+    margin:1.5rem;
+}
+
+.task h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.task p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.task button{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    float: right;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    background: none;
+    color: chocolate;
+}
